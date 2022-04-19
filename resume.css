@@ -5,14 +5,14 @@ h1{
   
 }
 h2{
-  font-size: 32px;
+  font-size: 36px;
   text-align: center;
   font-style: normal;
   font-weight: lighter;
   font-family:'monaco', monospace;
 }
 h3{
-  font-size: 28px;
+  font-size: 30px;
   text-align: left;
   font-style: normal;
   font-weight: lighter;
@@ -20,7 +20,7 @@ h3{
   text-decoration: underline;
 }
 lo{
-  font-size: 24px;
+  font-size: 26px;
   text-align: left;
   font-style: normal;
   font-weight: normal;
