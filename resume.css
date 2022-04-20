@@ -1,50 +1,60 @@
 h1{
- font-size:48px;
- font-family:'monaco', monospace;
+ font-size:36px;
+ font-family:optima;
  text-align:center;
-
+ color: blue;
+ background: silver;
+  
 }
 h2{
-  font-size: 36px;
+  font-size: 28px;
   text-align: center;
   font-style: normal;
   font-weight: lighter;
-  font-family:'monaco', monospace;
+  font-family:optima;
+  
 }
 h3{
-  font-size: 30px;
-  text-align: left;
-  font-style: normal;
-  font-weight: lighter;
-  font-family:'monaco', monospace;
-  text-decoration: underline;
-  color: red;
-}
-lo{
-  font-size: 26px;
+  font-size: 24px;
   text-align: left;
   font-style: normal;
   font-weight: normal;
-  font-family:'monaco', monospace;
+  font-family:optima;
+  color:red;
+}
+lo{
+  font-size: 24px;
+  text-align: left;
+  font-style: normal;
+  font-weight: normal;
+  font-family:optima;
 }
 div{
   font-size: 24px;
   text-align: left;
   font-style: normal;
   font-weight: normal;
-  font-family:'monaco', monospace;
+  font-family:optima;
 }
 span{
   font-size: 24px;
   text-align: left;
   font-style: normal;
   font-weight: normal;
-  font-family:'monaco', monospace;
+  font-family:optima;
 }
 p{
-  font-size: 32px;
+  font-size: 24px;
   text-align: left;
   font-style: normal;
   font-weight: normal;
-  font-family:'monaco', monospace;
+  font-family:optima;
+}
+div1{
+  font-size: 24px;
+  text-align: left;
+  font-weight: normal;
+  font-family:optima;
+  color:green;
+  font-style: italic;
 }
