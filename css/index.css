@@ -1,0 +1,28 @@
+div{
+  background-color:silver;
+  font-size:24px;
+  color:black;
+  font-family:optima;
+}
+a{
+  color:black;
+}
+h1{
+  text-align:center;
+  font-family:optima;
+  font-size:32px;
+  color:green;
+  font-style:italic;
+  text-decoration: underline;
+}
+span{
+  font-size:24px;
+  font-family:optima;
+  text-align:center;
+}
+lo{
+  text-align:left;
+  font-family:optima;
+  font-size:24px;
+  text-align:left;
+}
