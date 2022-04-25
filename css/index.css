@@ -1,28 +1,64 @@
-div{
-  background-color:silver;
-  font-size:24px;
-  color:black;
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: optima;
+  height: 100vh;
+  background-color: #ffffff;
+  font-family: optima;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  height: 70px;
+  padding: 30px 25px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+.nav--main a {
+  text-decoration: none;
+  color: #5e5e5e;
+}
+.nav--list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav--item {
+  padding: 1em;
+}
+.nav--item a {
+  text-decoration: none;
+  color: #777777;
+}
+section {
+  text-align: center;
+}
+.main h1 {
+  color: #4b4b4b;
+}
+.main--title {
+  margin: 45px 0 0 0;
+  font-size: 35px;
+}
+.main--subtitle {
+  color: #5e5e5e;
+  margin-top: 5px;
+}
+.about {
+  width: 700px;
+  margin: auto;
+  margin-top: 100px;
+}
+.about--title {
+  color: #4b4b4b;
+}
+p {
+  color: #5e5e5e;
   font-family:optima;
-  font-weight: bold;
 }
-a{
-  color:black;
-  text-align: center;
-  padding: 16px 20px;
-}
-h1{
-  font-size: 36px;
-  font-family: optima;
-  text-align: center;
-  font-style: italic;
-  font-weight: bold;
-  color:red;
-
-}
-h2{
-  font-size: 36px;
-  font-family: optima;
-  text-align: center;
-  font-style: normal;
-  font-weight: lighter;
+.paragraph {
+  text-align: left;
 }
