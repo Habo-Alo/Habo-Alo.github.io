@@ -63,22 +63,30 @@ p {
   text-align: left;
 }
 div{
-  background-color:silver;
   font-size:24px;
   color:black;
   font-family:optima;
   font-weight: bold;
 }
+main{
+  text-align: center;
+  width: 90vw;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 50px;
+}
 a{
   color:black;
   text-align: center;
+}
+a.active{
+  color: hotpink;
 }
 h1{
   font-size:32px;
   font-family:optima;
   text-align:center;
   color:red;
-  Background:#FAD5A5;
 }
 p{
   font-size:28px;
