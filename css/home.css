@@ -1,39 +1,69 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  gap: 60px;
+}
 
-div{
-  background-color:silver;
-  font-size:24px;
-  color:black;
-  font-family:optima;
-  font-weight: bold;
+.hero-content {
+  max-width: 560px;
 }
-a{
-  color:black;
-  text-align: center;
+
+.hero h1 {
+  font-size: 42px;
+  line-height: 1.15;
 }
-img{
-  width: 280px;
-  border-radius: 50px;
-  float: left;
-  margin-right: 30px;
+
+.hero-subtitle {
+  color: #475569;
+  font-size: 17px;
+}
+
+.hero-actions {
   margin-top: 25px;
 }
-h1{
-  text-align:center;
-  font-family:optima;
-  font-size:32px;
-  color:red;
-  font-style:italic;
-  margin-top: 75px;
+
+.hero-image-card {
+  background: white;
+  padding: 15px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(15,23,42,0.07);
 }
-span{
-  font-size:24px;
-  font-family:optima;
-  text-align:center;
-  margin-top: 50px:
+
+.hero-image-card img {
+  width: 260px;
+  border-radius: 14px;
+  display: block;
 }
-lo{
-  text-align:left;
-  font-family:optima;
-  font-size:24px;
-  text-align:left;
+
+.story-card {
+  margin: 60px auto;
+  padding: 42px;
+  max-width: 1000px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(15,23,42,0.07);
+}
+
+.story-grid {
+  display: grid;
+  gap: 20px;
+  color: #475569;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 55px 24px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero-image-card img {
+    width: 210px;
+  }
 }
