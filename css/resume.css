@@ -1,65 +1,61 @@
-
-h1{
- font-size:36px;
- font-family:optima;
- text-align:center;
- color: blue;
-}
-h2{
-  font-size: 28px;
+.page-header {
   text-align: center;
-  font-style: normal;
-  font-weight: lighter;
-  font-family:optima;
+  margin-bottom: 30px;
+}
 
+.page-header h1 {
+  font-size: 38px;
 }
-h3{
-  font-size: 24px;
-  text-align: left;
-  font-style: normal;
-  font-weight: normal;
-  font-family:optima;
-  color:red;
+
+.page-header p {
+  color: #475569;
 }
-h4{
-  font-size: 28px;
-  font-family: optima;
-  color: blue;
+
+.resume-section {
+  margin-top: 28px;
+}
+
+.resume-section h2 {
+  color: #1d4ed8;
+  margin-bottom: 12px;
+}
+
+.resume-item {
+  padding: 18px;
+  border: 1px solid #dbeafe;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  background: #fbfdff;
+}
+
+.resume-item h3 {
+  color: #0f172a;
+}
+
+.resume-meta {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.resume-item ul {
   padding-left: 20px;
+  margin-top: 10px;
+  color: #475569;
 }
-lo{
-  font-size: 24px;
-  text-align: left;
-  font-style: normal;
-  font-weight: normal;
-  font-family:optima;
+
+.tag-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  list-style: none;
 }
-div{
-  font-size: 24px;
-  text-align: left;
-  font-style: normal;
-  font-weight: normal;
-  font-family:optima;
-}
-span{
-  font-size: 24px;
-  text-align: left;
-  font-style: normal;
-  font-weight: normal;
-  font-family:optima;
-}
-p{
-  font-size: 24px;
-  text-align: left;
-  font-style: normal;
-  font-weight: normal;
-  font-family:optima;
-}
-div1{
-  font-size: 24px;
-  text-align: left;
-  font-weight: normal;
-  font-family:optima;
-  color:green;
-  font-style: italic;
+
+.tag-list li {
+  background: #e0f2fe;
+  color: #075985;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 14px;
 }
